@@ -1,14 +1,14 @@
 {
-  "homepage": "https://anandmathapati06.github.io/passwordgenerator",
+  "homepage": "https://anandmathapati06.github.io/password_generator",
   "name": "passgenerator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
-
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.3"
   }
 }
