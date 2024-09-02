@@ -13,6 +13,11 @@ let [count,setcount] = useState(0)
   let password
   let  number = ''
 
+  useEffect(() => {
+    num.current.innerHTML = "copy"
+    num.current.style.backgroundColor = "#2563EB"
+})
+ 
   const copy = () => {
       num.current.innerHTML = "copied"
       num.current.style.backgroundColor = "rgb(22 ,225, 52)"
